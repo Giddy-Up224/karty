@@ -1,7 +1,7 @@
 {
 	"folders": [
 		{
-			"name": "PIO_Template",
+			"name": "karty",
 			"path": "."
 		}
 	],
@@ -10,7 +10,7 @@
 			"forceToTop": true,
 			"blankLinesAfter": 1,
 			"license": "Custom",
-			"copyrightHolder": "Rubix, LLC",
+			"copyrightHolder": "Giddy-Up224",
 			"overridePathSeparator": "/",
 			"exclude": [
 				"markdown",
@@ -73,7 +73,7 @@
 		},
 		"psi-header.variables": [
 			["projectCreationYear", "2026"],
-            ["licenseURL", "https://github.com/Rubix-Battery/PIO_Template/LICENSE"]
+            ["licenseURL", "https://github.com/Giddy-Up224/karty/LICENSE"]
 		],
 		"psi-header.templates": [
 			{

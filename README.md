@@ -1,10 +1,6 @@
-# PIO_Template
+# karty
 
-## Setup
-
-When you use this repo as a template, you'll wish to rename the relevant files and file contents to the new repo name. Simply run the `change_repo_name.py` Python script to accomplish this task.
-
-## What is PIO_Template?
+## What is karty?
 
 - Provide a description of the use case for this repo...
 
@@ -14,7 +10,7 @@ When you use this repo as a template, you'll wish to rename the relevant files a
 
 <img src="img\format_document.png" alt="screenshot of context menu" width="250">
 
-- Use the [`esp_log_alias`](https://github.com/Rubix-Battery/esp_log_alias) library (an alias for `ESP_LOGI`, `ESP_LOGD`, etc.). rather than `Serial.println()` etc. (see [official documentation](https://docs.espressif.com/projects/esp-idf/en/stable/esp32/api-reference/system/log.html) for instructions on use.) 
+- Use the [`esp_log_alias`](https://github.com/Giddy-Up224/esp_log_alias) library (an alias for `ESP_LOGI`, `ESP_LOGD`, etc.). rather than `Serial.println()` etc. (see [official documentation](https://docs.espressif.com/projects/esp-idf/en/stable/esp32/api-reference/system/log.html) for instructions on use.) 
     
     **Note:** You MUST add this line to your `platformio.ini` file if you want `debug` and `info` log levels: `build_flags = -DCORE_DEBUG_LEVEL=ARDUHAL_LOG_LEVEL_DEBUG` 
 
