@@ -1,0 +1,171 @@
+{
+	"folders": [
+		{
+			"name": "PIO_Template",
+			"path": "."
+		}
+	],
+	"settings": {
+		"psi-header.config": {
+			"forceToTop": true,
+			"blankLinesAfter": 1,
+			"license": "Custom",
+			"copyrightHolder": "Rubix, LLC",
+			"overridePathSeparator": "/",
+			"exclude": [
+				"markdown",
+				"json",
+				"jsonc",
+				"yaml",
+				"xml",
+				"csv",
+			],
+			"excludeGlob": [
+				"out/**",
+				".pio/",
+				".vscode/",
+				"log/",
+				"output/",
+				"*.ini",
+				"*.code-workspace",
+				"*.md",
+				"*.json",
+				"*.jsonc",
+				"*.yml",
+				"*.yaml",
+				"*.xml",
+				"*.csv",
+				".clang-format",
+                "LICENSE"
+			],
+		},
+		"psi-header.changes-tracking": {
+			"isActive": true,
+			"modDate": "Last Modified:",
+			"modAuthor": "Modified By:",
+			"modDateFormat": "date",
+			"include": [],
+			"exclude": [
+				"markdown",
+				"json",
+				"jsonc",
+				"yaml",
+				"xml",
+				"csv",
+			],
+			"excludeGlob": [
+				"out/**",
+				".pio/",
+				".vscode/",
+				"log/",
+				"output/",
+				"*.ini",
+				"*.code-workspace",
+				"*.md",
+				"*.json",
+				"*.jsonc",
+				"*.yml",
+				"*.yaml",
+				"*.xml",
+				"*.csv"
+			],
+			"autoHeader": "manualSave"
+		},
+		"psi-header.variables": [
+			["projectCreationYear", "2026"],
+            ["licenseURL", "https://github.com/Rubix-Battery/PIO_Template/LICENSE"]
+		],
+		"psi-header.templates": [
+			{
+				"language": "c",
+				"template": [
+					"See license at: <<licenseURL>>",
+					"             _           ",
+					"            | |    _    ",
+					"  _ __ _   _| |__ (_)_  __®",
+					" | '__| | | | '_ \\| \\ \\/ /",
+					" | |  | |_| | |_) | |>  < ",
+					" |_|   \\__,_|_.__/|_/_/\\_\\",
+					"",
+					"Created Date: <<filecreated('dddd, Do MMMM YYYY h:mm:ss a')>>",
+					"Author: <<author>> (<<authoremail>>)",
+					"-------",
+					"Last Modified: <<dateformat('dddd, Do MMMM YYYY h:mm:ss a')>>",
+					"Modified By: <<author>> (<<authoremail>>)",
+					"Copyright <<projectCreationYear>> - <<year>> <<copyrightholder>>"
+				]
+			},
+            {
+				"language": "cpp",
+				"template": [
+					"See license at: <<licenseURL>>",
+					"             _           ",
+					"            | |    _    ",
+					"  _ __ _   _| |__ (_)_  __®",
+					" | '__| | | | '_ \\| \\ \\/ /",
+					" | |  | |_| | |_) | |>  < ",
+					" |_|   \\__,_|_.__/|_/_/\\_\\",
+					"",
+					"Created Date: <<filecreated('dddd, Do MMMM YYYY h:mm:ss a')>>",
+					"Author: <<author>> (<<authoremail>>)",
+					"-------",
+					"Last Modified: <<dateformat('dddd, Do MMMM YYYY h:mm:ss a')>>",
+					"Modified By: <<author>> (<<authoremail>>)",
+					"Copyright <<projectCreationYear>> - <<year>> <<copyrightholder>>"
+				]
+			},
+            {
+				"language": "ini",
+				"template": [
+					"See license at: <<licenseURL>>",
+					"             _           ",
+					"            | |    _    ",
+					"  _ __ _   _| |__ (_)_  __®",
+					" | '__| | | | '_ \\| \\ \\/ /",
+					" | |  | |_| | |_) | |>  < ",
+					" |_|   \\__,_|_.__/|_/_/\\_\\",
+					"",
+					"Created Date: <<filecreated('dddd, Do MMMM YYYY h:mm:ss a')>>",
+					"Author: <<author>> (<<authoremail>>)",
+					"-------",
+					"Last Modified: <<dateformat('dddd, Do MMMM YYYY h:mm:ss a')>>",
+					"Modified By: <<author>> (<<authoremail>>)",
+					"Copyright <<projectCreationYear>> - <<year>> <<copyrightholder>>"
+				]
+			}
+		],
+		"psi-header.lang-config": [
+			{
+                "language": "c",
+                "begin": "/*",
+                "prefix": " * ",
+                "end": " */",
+                "blankLinesAfter": 1
+            },
+            {
+                "language": "cpp",
+                "begin": "/*",
+                "prefix": " * ",
+                "end": " */",
+                "blankLinesAfter": 1
+            },
+            {
+				"language": "python",
+				"begin": "#",
+				"prefix": "# ",
+				"end": "###",
+				"blankLinesAfter": 1,
+				"beforeHeader": [
+					"# !/usr/bin/env python3"
+			]
+			},
+            {
+                "language": "ini",
+                "begin": ";",
+                "prefix": "; ",
+                "end": ";",
+                "blankLinesAfter": 1
+            }
+		]
+	}
+}

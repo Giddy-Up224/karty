@@ -1,0 +1,16 @@
+BasedOnStyle: LLVM
+IndentWidth: 4
+AccessModifierOffset: -4
+BraceWrapping:
+  AfterFunction: false
+IncludeCategories:
+  - Regex:           '^<.*>$'
+    Priority:        1
+  - Regex:           '^".*"$'
+    Priority:        2
+SortIncludes: true
+ColumnLimit: 150
+BinPackArguments: false
+BinPackParameters: false
+BreakBeforeBinaryOperators: None
+PenaltyBreakAssignment: 1000000
